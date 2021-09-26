@@ -1,0 +1,15 @@
+.body{
+    min-height: 100vh;
+	justify-content: center;
+}
+#Header{
+    background-color: rgb(236, 38, 38);
+    text-align: center;
+}
+#input{
+    background-color: rgb(146, 36, 36);
+    padding: 0.5rem;
+}
+#labelMale{
+    padding-right: 20px;
+}

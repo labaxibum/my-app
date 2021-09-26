@@ -1,0 +1,47 @@
+<div class="body">
+    <div class="container" id="Header">
+        <h2>User Management</h2>
+    </div>
+    <div class="container" id="inputForm">
+            <div class="col-md-12" >
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div id="input">
+                            <label class="col-sm-2">Username:</label>
+                            <input class="col-sm-4" type="text" id="Uname" name="Uname">
+                        </div>
+                        <div id="input">
+                            <label class="col-sm-2" >Phone:</label>
+                            <input class="col-sm-4" type="text" id="Uphone" name="Uphone">
+                        </div>
+                        <div id="input">
+                            <label class="col-sm-2" >Address:</label>
+                            <input class="col-sm-4" type="text" id="Uaddress" name="Uaddress">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div id="input">
+                            <label class="col-sm-2">Birthday:</label>
+                            <input type="date" [ngModel]="BirthdayID" id="BirthdayID" (ngModelChange)="BirthdayID($event)">                         
+                        </div>
+                        <div id="input">
+                            <label class="col-sm-2" >Gender:</label>
+                            <input type="radio" id="Male" name="radioGender">
+                            <label id="labelMale" for="Male">Male</label>
+                            <input type="radio" id="Female" name="radioGender">
+                            <label id="labelFemale" for="Female">Female</label>
+                        </div>
+                        <div id="input">
+                            <label class="col-sm-2" >User Type:</label>
+                            <input class="col-sm-4" type="text" id="Uaddress" name="Uaddress">
+                        </div>
+                    </div>
+                </div>        
+            </div>
+    </div>
+    <body>
+        <p>Tong la:{{Tong}}</p>
+    </body>
+</div>
+
+
